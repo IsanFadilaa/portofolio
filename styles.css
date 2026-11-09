@@ -1,3 +1,26 @@
+/* FONTS (self-hosted) */
+@font-face {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('fonts/sora-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/ibm-plex-mono-400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('fonts/ibm-plex-mono-500-latin.woff2') format('woff2');
+}
+
 /* RESET */
 * {
   margin: 0;
@@ -17,7 +40,7 @@ body {
 .noise {
   position: fixed;
   inset: 0;
-  background: url('https://grainy-gradients.vercel.app/noise.svg');
+  background: url('noise.svg');
   opacity: 0.05;
   pointer-events: none;
 }
