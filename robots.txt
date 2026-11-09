@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /koneksi.php
+Disallow: /profile.php
+
+Sitemap: https://isanfadhilaa.vercel.app/sitemap.xml
